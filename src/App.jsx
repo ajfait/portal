@@ -1,10 +1,17 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Welcome from "./components/Welcome";
+import Footer from "./components/Footer";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
-}
+const App = () => {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Welcome />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
