@@ -5,10 +5,10 @@ const Footer = () => {
     <div className="grid grid-cols-3 gap-5 bg-neutral-800 pt-10 pb-10 text-neutral-300 text-center">
       <div>
         <p className="font-semibold mb-2">Contact</p>
-        <p>
+        <p className="hover:text-neutral-100">
           <a href="tel:+16089605211">(608) 960-5211</a>
         </p>
-        <p>
+        <p className="hover:text-neutral-100">
           <a href="mailto:info@misfitfelines.org">info@misfitfelines.org</a>
         </p>
       </div>
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div>
         <p className="font-semibold mb-2">Donate</p>
-        <p>
+        <p className="hover:text-neutral-100">
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=HWDWVUUB8PAQW&mibextid=Zxz2cZ"
             target="blank"
@@ -41,7 +41,7 @@ const Footer = () => {
             PayPal
           </a>
         </p>
-        <p>
+        <p className="hover:text-neutral-100">
           <a href="https://account.venmo.com/u/Joelle-Thorne" target="blank">
             Venmo
           </a>
