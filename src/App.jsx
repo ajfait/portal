@@ -5,11 +5,19 @@ import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 import AddPersonForm from "./components/AddPersonForm";
 import ProfileCard from "./components/ProfileCard";
+import NavMenu from "./components/NavMenu";
 
 const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <div className="flex flex-row">
+        <div className="basis-1/6"></div>
+        <div className="basis-full">
+          <NavMenu />
+        </div>
+        <div className="basis-1/6"></div>
+      </div>
       <div className="flex flex-row">
         <div className="basis-1/6"></div>
         <div className="basis-1/3">
