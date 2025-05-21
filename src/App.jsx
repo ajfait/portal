@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 import AddPersonForm from "./components/AddPersonForm";
+import ProfileCard from "./components/ProfileCard";
 
 const App = () => {
   return (
@@ -11,7 +12,9 @@ const App = () => {
       <Header />
       <div className="flex flex-row">
         <div className="basis-1/6"></div>
-        <div className="basis-1/3"></div>
+        <div className="basis-1/3">
+          <ProfileCard />
+        </div>
         <div className="basis-2/3">
           <AddPersonForm />
         </div>

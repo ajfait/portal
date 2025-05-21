@@ -3,10 +3,10 @@ import React from "react";
 const AddPersonForm = () => {
   return (
     <form className="text-neutral-800 bg-neutral-200 border border-neutral-800 rounded-md m-5 p-5">
-      <h1 className="text-3xl font-bold">Add Person</h1>
+      <h2 className="text-3xl font-bold">Add Person</h2>
       <div className="relative m-2 mt-5">
         <input
-          className="peer border border-neutral-800 rounded-md mr-2 field-sizing-fixed w-sm placeholder-transparent"
+          className="peer border border-neutral-800 rounded-md field-sizing-fixed w-sm placeholder-transparent"
           type="text"
           name="first_name"
           id="first_name"
@@ -23,7 +23,7 @@ const AddPersonForm = () => {
       </div>
       <div className="relative m-2 mt-5">
         <input
-          className="peer border border-neutral-800 rounded-md mr-2 field-sizing-fixed w-sm placeholder-transparent"
+          className="peer border border-neutral-800 rounded-md field-sizing-fixed w-sm placeholder-transparent"
           type="text"
           name="last_name"
           id="last_name"
@@ -40,7 +40,7 @@ const AddPersonForm = () => {
       </div>
       <div className="relative m-2 mt-5">
         <input
-          className="peer border border-neutral-800 rounded-md mr-2 field-sizing-fixed w-sm placeholder-transparent"
+          className="peer border border-neutral-800 rounded-md field-sizing-fixed w-sm placeholder-transparent"
           type="tel"
           name="phone"
           id="phone"
@@ -56,7 +56,7 @@ const AddPersonForm = () => {
       </div>
       <div className="relative m-2 mt-5">
         <input
-          className="peer border border-neutral-800 rounded-md mr-2 field-sizing-fixed w-sm placeholder-transparent"
+          className="peer border border-neutral-800 rounded-md field-sizing-fixed w-sm placeholder-transparent"
           type="email"
           name="email"
           id="email"
